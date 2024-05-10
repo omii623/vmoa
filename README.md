@@ -1,27 +1,31 @@
-# Vmoa
+# Vmoa (Vérnyomás monitorozó orvosi alkalmazás)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+Email: test@test.com
+Pass: testpw
 
-## Development server
+Firebase host: https://vmoa-2024.web.app/main
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pontok amiket számoltam
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+|Elem|Pont|Megjegyzés|
+|---|:---:|---|
+|ng serve hiba nélkül|1/1|
+|böngésző konzol hiba nélkül|1/1|
+|Firebase Host|1/1|probléma merült fel elsőre később lett megvalósítva|
+|Adatmodell definiálás|2/1| Users.ts BloodPressures.ts|
+|Felbontás kompomensekre (250sor, 400karakter)|1/1|
+|Reszponzív|2/2|
+|2 attribútum direktíva|1/1|
+|2 strukturális direktíva|1/1|
+| @Input @Output |1/1|
+|Materal elemek |5/2.5|menu, icon, button, input, form|
+|Adatbevitel Angular form|2/2|
+|saját pipe|2/2|
+|Lifecycle Hook használat|1/1|
+|CRUD mindegyike megvalósul|4/2|
+|CRUD service-ekben van|1/1|
+|Firestore adatbázis használat|1/1|
+|2 komplex lekérdezés|4/2|
+|4 kül. route használat|1/1|
+|2 route levédés|2/2| /data /secret |
+|Szubjektív|6/:)|
