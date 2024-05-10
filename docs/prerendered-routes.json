@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/data",
+    "/login",
+    "/main",
+    "/not-found",
+    "/register",
+    "/secret"
+  ]
+}
